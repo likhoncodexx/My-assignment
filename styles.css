@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.full-inter-font{
+  font-family: "Inter", sans-serif;
+}
+
+.first-navbar{
+  width: 85%;
+  max-width: 1341px;
+  height: 92px;
+  font-size: 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+}
+
+.logo-first img{
+  height: 48px;
+}
+
+.firrt-menu{
+  width: 85%;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+.firrt-menu li a{
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+ .btn{
+  background: #2e8b57;
+  color: #fff;
+  padding: 12px 20px;
+  gap: 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  width: 264px;
+  height: 44px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#hero-bg{
+max-width: 1600px;
+height: 674px;
+background-image: url("/assets/hero-bg.png");
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+.hero-content{
+  width: 1360px;
+  height: 379px;
+  text-align: center;
+  padding-left: 295px;
+  padding-right: 295px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.hero-text{
+  max-width: 770px;
+  font-size: 72px;
+}
+.hero-pera{
+  color: #FFFFFF;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+.btn-group{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ margin:auto;
+ gap: 16px;
+}
+#notes{
+
+}
+.notes-container{
+  width: 85%;
+max-width: 1360px;
+margin: 0 auto;
+}
+.notes-heading{
+  max-width: 1360px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 36px;
+  margin-bottom: 44px;
+}
+.notes-container h2 {
+  margin-bottom: 16px;
+}
+.notes-box{
+
+  display: flex;
+  gap: 24px;
+  
+}
+.notes-box .note-card{
+  border-radius: 8px;
+box-shadow: 0px 0px 8px 0px #0000001d;
+background: rgba(255, 255, 255, 1);
+  padding: 24px;
+  max-width: 322px;
+  height: 300px;
+}
+.img-color{
+  background-color: #F95555;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 13px 14px;
+  display: flex;
+  margin: auto;
+}
+.note-card img{
+  margin-bottom: 16px;
+}
+.note-card h3{
+  color:#001931;
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-right: 24px ;
+  margin-left: 32px;
+  font-weight: 600;
+}
+.note-card p{
+  color:#627382;
+  font-size: 13px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
