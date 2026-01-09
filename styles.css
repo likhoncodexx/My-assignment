@@ -50,14 +50,21 @@
   border: none;
   border-radius: 6px;
   font-size: 16px;}
-  
+  .btn:hover{
+    background-color: blueviolet;
+    color: rgb(240, 226, 226);
 }
-.bghide-btn{
+  
+ .btn-group .bghide-btn{
   background-color: transparent;
-    border: 1px solid white;
+  border: 1px solid white;
+  padding: 12px 16px 12px 16px;
+  color: #FFFFFF;
+}
+.btn-group .bghide-btn:hover{
+  background-color: aqua;
 }
 #hero-bg{
-max-width: 1600px;
 height: 674px;
 background-image: url("./assets/hero-bg.png");
 background-size: cover;
@@ -151,14 +158,15 @@ background: rgba(255, 255, 255, 1);
 
 #brainstracture{
   display: flex;
-  margin-left: 120px;
+  gap: 24px;
   margin-bottom: 120px;
+  margin-top: 120px;
  
 }
 #brainstracture .brain-content{
   margin-top: 120px;
   margin-bottom: 120px;
-  margin-left: 0;
+  margin-left: 120px;
   margin-right: 0;
 }
 .brain-contant h1{
@@ -174,12 +182,12 @@ background: rgba(255, 255, 255, 1);
 #brainstracture ul{
   list-style: none;
 }
-.brainstracture ul li{
+#brainstracture ul li{
   color: #001931;
   margin-bottom: 16px;
   
 }
-i{
+  #brainstracture ul li i{
   color: #30B868;
 }
 #readyclearly{
@@ -197,4 +205,41 @@ i{
   margin-trim: 24px;
   margin-bottom: 16px;
 
+}
+footer{
+    background-color: #001931;
+    padding-bottom: 30px;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120;
+  padding-bottom: 84px;
+}
+.footer-content .social-content{
+   color: white;
+  font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-content .social-content p{
+  color: white;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 16px;
+}
+.social-content .social-icon a i{
+color: #FFFFFF;
+margin-right: 16px;
+}
+.social-content .social-icon a i :hover{
+    color: greenyellow;
+}
+#footer-container p {
+  font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+    color: #FAFAFA;
+    
 }
