@@ -42,17 +42,19 @@
 }
 
  .btn{
-  background: #2e8b57;
+  background: #469165;
   color: #fff;
+  cursor: pointer;
   padding: 12px 20px;
   gap: 16px;
   border: none;
   border-radius: 6px;
-  font-weight: 600;
-  width: 260px;
-  height: 44px;
-  font-size: 16px;
-  cursor: pointer;
+  font-size: 16px;}
+  
+}
+.bghide-btn{
+  background-color: transparent;
+    border: 1px solid white;
 }
 #hero-bg{
 max-width: 1600px;
@@ -145,4 +147,54 @@ background: rgba(255, 255, 255, 1);
   font-size: 13px;
   margin-left: 24px;
   margin-right: 24px;
+}
+
+#brainstracture{
+  display: flex;
+  margin-left: 120px;
+  margin-bottom: 120px;
+ 
+}
+#brainstracture .brain-content{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.brain-contant h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-content p{
+   margin-bottom: 16px;
+   font-size: 16px;
+}
+#brainstracture ul{
+  list-style: none;
+}
+.brainstracture ul li{
+  color: #001931;
+  margin-bottom: 16px;
+  
+}
+i{
+  color: #30B868;
+}
+#readyclearly{
+  background-color:#F7F6F2;
+  padding: 80px 40px 80px 40px;
+  text-align: center;
+  margin: 120px 120px;
+}
+#readyclearly h2{
+  color: #001931;
+  font-weight: 600;
+  font-size: 40px;
+}
+#readyclearly p{
+  margin-trim: 24px;
+  margin-bottom: 16px;
+
 }
