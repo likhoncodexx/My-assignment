@@ -7,7 +7,7 @@
 .full-inter-font{
   font-family: "Inter", sans-serif;
 }
-
+ /* this is header-nav */
 .first-navbar{
   width: 85%;
   max-width: 1341px;
@@ -40,7 +40,7 @@
   font-size: 16px;
   transition: color 0.3s;
 }
-
+ /* this is button  */
  .btn{
   background: #469165;
   color: #fff;
@@ -54,6 +54,21 @@
     background-color: blueviolet;
     color: rgb(240, 226, 226);
 }
+.upbutton{
+  padding:8px 12px;
+  color:#469165;
+  border-radius: 25px;
+  border:none;
+  font-size: 16px;
+  font-weight: 500;
+  margin:16px;
+  cursor: pointer;
+}
+.upbutton:hover{
+  color: white;
+  background-color: blueviolet;
+}
+
   
  .btn-group .bghide-btn{
   background-color: transparent;
@@ -64,6 +79,8 @@
 .btn-group .bghide-btn:hover{
   background-color: aqua;
 }
+
+/* this is hero-bg content */
 #hero-bg{
 height: 674px;
 background-image: url("./assets/hero-bg.png");
@@ -71,6 +88,9 @@ background-size: cover;
 display: flex;
 justify-content: center;
 align-items: center;
+ }
+ .firrt-menu li a:hover{
+  background-color: rgb(228, 231, 234);
  }
 .hero-content{
   width: 1360px;
@@ -97,6 +117,7 @@ align-items: center;
  margin:auto;
  gap: 16px;
 }
+/* this is notes */
 #notes{
 
 }
@@ -149,13 +170,13 @@ background: rgba(255, 255, 255, 1);
   font-size: 13px;
   line-height: 20px;
 }
-
+  /* this is brainstracture */
 #brainstracture{
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
-  margin-top: 120px;
- 
+  margin: 120px auto;
+ width: 85%;
+ max-width:1360px;
 }
 #brainstracture .brain-content{
   margin-top: 120px;
@@ -170,6 +191,7 @@ background: rgba(255, 255, 255, 1);
     margin-bottom: 16px;
 }
 .brain-content p{
+  margin-top:16px;
    margin-bottom: 16px;
    font-size: 16px;
 }
@@ -184,6 +206,7 @@ background: rgba(255, 255, 255, 1);
   #brainstracture ul li i{
   color: #30B868;
 }
+ /* this is readyclearly */
 #readyclearly{
   background-color:#F7F6F2;
   padding: 80px 40px 80px 40px;
@@ -198,11 +221,19 @@ background: rgba(255, 255, 255, 1);
 #readyclearly p{
   margin-trim: 24px;
   margin-bottom: 16px;
+  margin-top:16px ;
 
 }
+ /* this is footer */
 footer{
     background-color: #001931;
     padding-bottom: 30px;
+}
+#footer-container{
+  width: 85%;
+  max-width:1360px;
+  margin:auto;
+  padding-top:100px;
 }
 .footer-content{
   display: flex;
@@ -222,13 +253,14 @@ footer{
    font-size: 20px;
    font-weight: 500;
    margin-bottom: 16px;
+   margin-right:35px;
 }
 .social-content .social-icon a i{
 color: #FFFFFF;
 margin-right: 16px;
 }
-.social-content .social-icon a i :hover{
-    color: greenyellow;
+.social-content .social-icon a i:hover{
+   color: blueviolet;
 }
 #footer-container p {
   font-size: 16px;
@@ -237,3 +269,4 @@ margin-right: 16px;
     color: #FAFAFA;
     
 }
+
